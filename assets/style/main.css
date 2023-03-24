@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    /* position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white; */
+}
+.allTemplatesBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 85px;
+    width: 85%;
+    margin: 0 auto;
+}
+.leftArrow img{
+    width: 30px;
+    height: 30px;
+}
+.allTemplatesLeft{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 300px;
+    justify-content: space-between;
+}
+.succesPoint{
+    width: 28px;
+    height: 20px;
+}
+.imgAndText{
+    display: flex;
+}
+.allTemplatesRight{
+    display: flex;
+}
+.StartBuildingButton{
+    color: aliceblue;
+    border: 1px solid #583bb6;
+    background-color: #583bb6;
+    width: 188px;
+    height: 37px;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+.imgAndText p{
+    padding: 5px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    /* width: 80%; */
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.rightOfNav{
+    display: flex;
+    align-items: center;
+}
+.rightOfNav ul{
+display: flex;
+gap: 30px;
+font-size: 20px;
+}
+.logo h1{
+    font-size: 30px;
+}
+.rightOfNav ul li:first-child{
+border-bottom: 1px solid black;
+}
+.rightOfNav ul li:hover{
+    cursor: pointer;
+    color:darkslategray;
+    border-bottom: 1px solid black;
+}
+.shopTogetherImage{
+    /* background-image: url("../Images/shopTogether.jpg"); */
+    width: 100%;
+    /* height: 100%; */
+}
+.shopTogetherImg{
+    width: 100%;
+}
+.shopTogetherBox{
+    position: relative;
+    bottom: 380px;
+    left: 200px;
+    width: 400px;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.shopTogetherBox h1{
+    font-size: 50px;
+}
+.fromBabyTextandH{
+    text-align: center;
+    width: 517px;
+    margin: 0 auto;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.fromBaby p{
+    padding: 34px;
+}
+.accessoriesbtn{
+    position: relative;
+    bottom: 19px;
+    left: 124px;
+}
